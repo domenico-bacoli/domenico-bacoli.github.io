@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.formula1-box, .motogp-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+
+.right-side{
+    margin-bottom: 30px;
+}
+
+.formula1-next-event, .motogp-next-event{
+    margin-right: 15px;
+}
+
+.formula1-next-event, .motogp-next-event{
+    background-color: rgba(240, 240, 240, 0.6);
+    width: 270px;
+    height: 250px;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}   
+
+.formula1-ranking, .motogp-ranking{
+    background-color: rgba(240, 240, 240, 0.6);
+    width: 270px;
+    height: 250px;
+    border-radius: 15px;
+    padding: 10px 10px 15px;
+} 
+
+.circuit-image{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6px;
+}
+
+.circuit-image img{
+    width: 120px;
+    border-top: 4px solid white;
+    border-bottom: 6px solid rgba(240, 240, 240, 0.6);
+    border-radius: 10px;
+}
+
+.circuit-name{
+    margin: 0;
+    padding-bottom: 4px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.date, .hour {
+    margin: 0;
+    padding-bottom: 4px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.formula1-ranking{
+    margin-bottom: 20px;
+}
+
+.formula1-ranking-logo, .motogp-ranking-logo{
+    display: flex;
+    justify-content: center;
+}
+
+.formula1-ranking-logo img, .motogp-ranking-logo img{
+    width: 50px;
+}
+
+.f1-table, .motogp-table{
+    width: 100%;
+}
+
+.f1-table img, .motogp-table img{
+    width: 26px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+th, td{
+    padding: 3px;
+}
+
+.formula1-next-event-logo, .motogp-next-event-logo{
+    display: flex;
+    justify-content: center;
+}
+
+.formula1-next-event-logo img,
+.motogp-next-event-logo img{
+    width: 50px;
+}
+
+.pilot, .pilot-point, .pilot-victory{
+    font-size: 10px;
+    padding-top: 6px;
+    font-weight: bold;
+}
+
+.pilot-point, .pilot-victory{
+    text-align: center;
+}
+
+.classification {
+    font-size: 12px;
+}
+
+.classification, .point, .victory{
+    padding-bottom: 10px;
+}
+
+.point, .victory{
+    font-size: 10px;
+}
+
+.calendar-events{
+    max-width: 100%;
+    margin: 0 15px 20px;
+}
+
+.formula1-calendar-events-ranking-logo,
+.motogp-calendar-events-ranking-logo{
+    display: flex;
+    justify-content: center;
+}
+
+.formula1-calendar-events-ranking-logo img,
+ .motogp-calendar-events-ranking-logo img{
+    width: 80px;
+}
+
+.formula1-calendar-events{
+    margin-bottom: 40px;
+}
+
+.formula1-calendar-events, .motogp-calendar-events{
+    width: 100%;
+}
+
+.events-table{
+    width: 100%;
+}
+
+.events-table th{
+    background-color: rgba(240, 240, 240, 0.6);
+    padding: 10px;
+}
+
+.events-table td{
+    border-top: 1px solid rgb(204, 204, 204);
+    border-bottom: 1px solid rgb(204, 204, 204);
+    padding: 18px;
+}
+
+.events-table-circuit, .events-table-date{
+    font-size: 16px;
+}
+
+.events-table-circuit p, .events-table-date p{
+    margin: 0;
+}
+
+.events-table-date p{
+    margin-left: 12px;
+}
+
+.events-table-circuit p{
+    padding-left: 30px;
+}
+
+.events-table-circuit-image img{
+    width: 40px;
+    margin-right: 6px;
+}
+
+.events-table-item{
+    display: flex;
+    flex-direction: row;
+}
+
+.events-table-circuit-details p{
+    margin: 0;
+    margin-left: 20px;
+}
+
+.place{
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+
+.place-description{
+    font-size: 13px;
+}
+
+.date-details{
+    font-size: 14px;
+    margin-right: 16px;
+}
+
+
+
+
+@media (min-width: 768px){
+
+    .right-side{
+        width: 250px;
+        margin-left: 15px;
+    }
+
+    .formula1-box, .motogp-box{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .formula1-next-event, .motogp-next-event{
+        margin-bottom: 40px;
+        margin-right: 0;
+    }
+    
+    .formula1-next-event, .motogp-next-event{
+        width: 250px;
+        height: 290px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }   
+    
+    .formula1-ranking, .motogp-ranking{
+        width: 250px;
+        height: 290px;
+        padding: 10px 20px;    
+    }
+    
+    .formula1-ranking{
+        margin-bottom: 40px;
+    }
+    
+    .circuit-image img{
+        width: 160px;
+    }
+
+    .formula1-next-event-logo, .motogp-next-event-logo{
+        display: flex;
+        justify-content: center;
+    }
+
+    .circuit-name{
+        margin: 0;
+        padding-bottom: 4px;
+        font-size: 13px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .f1-table img, .motogp-table img{
+        width: 26px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    th, td{
+        padding: 6px;
+    }
+
+    .classification, .point, .victory{
+        padding-bottom: 10px;
+    }
+    
+    .pilot, .pilot-point, .pilot-victory{
+        font-size: 11.5px;
+    }
+
+}
+
+
+@media (min-width: 992px){
+    .right-side{
+        width: 300px;
+    }
+    
+    .formula1-next-event, .motogp-next-event{
+        width: 300px;
+        height: 320px;
+        margin-bottom: 60px;
+    }   
+    
+    .formula1-ranking, .motogp-ranking{
+        width: 300px;
+        height: 320px;
+    } 
+
+    .formula1-ranking{
+        margin-bottom: 60px;
+    }
+    
+    .circuit-image img{
+        width: 180px;
+    }
+
+    .circuit-name{
+        margin-top: 20px;
+        font-size: 16px;  
+    }
+    
+    .f1-table img, .motogp-table img{
+        width: 26px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    
+    th, td{
+        padding: 8px;
+    }
+
+    .classification, .point, .victory{
+        font-size: 14px;
+        padding-bottom: 16px;
+    }
+    
+    .pilot, .pilot-point, .pilot-victory{
+        font-size: 13px;
+    }
+
+    .calendar-events{
+        display: flex;
+        flex-direction: row;
+        gap: 60px;
+    }
+
+}

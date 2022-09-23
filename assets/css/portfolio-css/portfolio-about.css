@@ -1,0 +1,118 @@
+#about{
+    height: 300px;
+    background-image: url(../../img/portfolio-about-image.png);
+    background-size: 62%;
+    background-position: right 0% top 0%;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.about-text{   
+    letter-spacing: 0.05ch;
+    display: flex;
+    flex-direction: column;
+    padding-left: 34px;
+    padding-top: 80px;
+}
+
+.about-text h1{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.text-name-description{
+    padding-top: 4px;
+    font-size: 11px;
+}
+
+.text-name{
+    color: rgb(241, 99, 99);
+}
+
+
+
+
+@media (max-width: 389px){
+    #about{
+    background-position: right -5% top 0%;
+    }
+
+    .about-text{   
+        padding-left: 26px;
+    }
+}
+
+
+
+@media (min-width: 768px){
+    #about{
+        height: 550px;
+        background-size: 53%;
+        background-position: right 10% top 0%;
+    }
+    
+    .about-text{   
+        padding-left: 70px;
+        padding-top: 200px;
+        
+    }
+    
+    .about-text h1{
+        font-size: 36px;
+    }
+    
+    .text-name-description{
+        padding-top: 10px;
+        font-size: 16px;
+    }
+}
+
+
+
+@media (min-width: 992px){
+    #about{
+        height: 600px;
+        background-size: 46%;
+        background-position: right 15% top 0%;
+    }
+    
+    .about-text{   
+        display: flex;
+        justify-content: center;
+        padding-left: 100px;
+        padding-bottom: 200px;
+    }
+    
+    .about-text h1{
+        font-size: 46px;
+    }
+    
+    .text-name-description{
+        padding-top: 16px;
+        font-size: 20px;
+    }
+}
+
+
+@media (min-width: 1200px){
+    #about{
+        height: 640px;
+        background-size: 41%;
+        background-position: right 20% top 0%;
+    }
+    
+    .about-text{
+        padding-left: 150px;
+        padding-bottom: 240px;
+
+    }
+    
+    .about-text h1{
+        font-size: 54px;
+    }
+    
+    .text-name-description{
+        padding-top: 30px;
+        font-size: 22px;
+    }
+}

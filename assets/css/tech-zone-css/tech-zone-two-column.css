@@ -1,0 +1,187 @@
+.left-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.right-side .video-review-2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.card{
+    max-width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px 2px rgb(223, 223, 223);
+}
+
+.big-news-item img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+    border-radius: 10px 10px 0 0; 
+}
+
+.card-text{
+    display: flex;
+    align-items: center;
+}
+
+.news-icon{
+    background-color: rgb(94, 169, 255);
+    height: 70px;
+    width: 8px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 2px;	
+}
+
+.big-news-title{
+    padding-top: 16px;
+}
+
+.big-news-title h1{
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.big-news-title a:hover{
+    color: rgba(0, 0, 0, 0.55)
+}
+
+.big-news-introduction{
+    margin-right: 14px;
+    font-size: 12px;
+    letter-spacing: 0.02ch;
+}
+
+.video-review{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.video-review-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 12px 2px rgba(223, 223, 223, 0.8);  
+}
+
+.video-review-card video{
+    border-radius: 5px;
+    width: 170px;
+    height: 100px;
+}
+
+.video-review-2{
+    margin: 0 auto;
+}
+
+
+@media (max-width: 767px){
+.video-3, .video-4, .video-5, .video-6, .video-7, .video-8{
+    display: none;
+}
+}
+
+
+@media (min-width: 768px){
+    .big-news-item{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .big-news-item img{
+        max-width: 45%;
+        margin-top: 0;
+        border-radius: 10px 2px 2px 10px;    
+    }
+    
+    .big-news-title{
+        font-size: 26px;
+        font-weight: bold;
+    }
+    
+    .big-news-introduction{
+        font-size: 14px;
+    }
+    
+    .video-review{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .video-review-card{
+        border-radius: 5px;
+    }
+    
+    .video-review-card video{
+        width: 170px;
+        height: 120px;
+    }
+}
+
+
+@media (min-width: 992px){
+    .two-column-item{
+        display: flex;
+        flex: row;
+        margin-top: 30px;
+    }
+
+    .right-side{
+        margin-right: 40px;
+    }
+
+    .card{
+        max-width: 90%;
+    }
+
+    .big-news-item img{
+        max-width: 40%;
+    }
+
+    .news-icon{
+        height: 90px;
+        width: 6px;
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+
+    .big-news-item-details{ 
+        text-align: left;
+}
+
+    .video-review-card{
+        display: flex;
+        flex-direction: column;   
+        gap: 30px;
+}
+
+    .video-review-card video{
+        width: 240px;
+        height: 160px;
+}
+
+    .video-review-max-767px{
+        display: none;
+}
+
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .video-5, .video-6, .video-7, .video-8{
+        display: none;
+    }
+}

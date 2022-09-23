@@ -1,0 +1,34 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(235, 235, 235); 
+}
+
+.btn-danger {
+    background-color: rgb(255, 73, 73);
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    z-index: 2;
+}
+    
+main{
+    max-width: 1200px;
+    margin: 0 auto ; 
+    background-color: rgb(250, 250, 250);
+}
+    
+a{
+    color: rgba(0, 0, 0, 0.7);
+}
+
+a:hover{
+    color: rgba(0, 0, 0, 0.55)
+}
+
+
+@media (min-width: 768px){
+    main{
+        margin: 30px auto 30px;
+    }
+}
