@@ -39,7 +39,7 @@ a:hover{
     margin-top: 10px; 
 }
 
-.section-title h1{
+.section-title h2{
     font-size: 32px;
 }
 
@@ -60,7 +60,7 @@ a:hover{
         margin-top: 20px; 
     }
         
-    .section-title h1{
+    .section-title h2{
         font-size: 38px;
         letter-spacing: 0.1ch;
     }

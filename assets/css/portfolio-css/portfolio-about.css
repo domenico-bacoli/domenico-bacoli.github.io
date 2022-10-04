@@ -15,6 +15,12 @@
     padding-top: 80px;
 }
 
+.text-greeting{
+    font-size: 19px;
+    font-weight: bold;
+    margin: 0;
+}
+
 .about-text h1{
     font-size: 19px;
     font-weight: bold;
@@ -56,8 +62,8 @@
         padding-top: 200px;
         
     }
-    
-    .about-text h1{
+
+    .about-text h1, .text-greeting{
         font-size: 36px;
     }
     
@@ -83,7 +89,7 @@
         padding-bottom: 200px;
     }
     
-    .about-text h1{
+    .about-text h1, .text-greeting{
         font-size: 46px;
     }
     
@@ -104,10 +110,9 @@
     .about-text{
         padding-left: 150px;
         padding-bottom: 240px;
-
     }
     
-    .about-text h1{
+    .about-text h1, .text-greeting{
         font-size: 54px;
     }
     
